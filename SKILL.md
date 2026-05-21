@@ -210,6 +210,7 @@ Résonance     : [motifs inter-sessions détectés, si applicable]
 
 | Fichier | Quand le lire |
 |---|---|
+| `references/corpus-theorique.md` | Toujours, avant le protocole |
 | `references/protocole-crc-recursif.md` | Toujours, dès l'initialisation |
 | `references/traduction-crc-stele.md` | Étape 5, avant génération de signature |
 | `references/regles-recursion.md` | Étape 3, après chaque Passe 5 |
