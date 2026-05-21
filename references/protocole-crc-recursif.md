@@ -66,11 +66,9 @@ qui alimentera les passes suivantes.
      inter-paradigmes à résoudre en Passe 4.
 
 ### Sortie attendue
-- Liste de concepts avec poids `A`
-- Tensions identifiées
-- Registre dominant
-- Signal de conflit attracteur/stimulus si applicable
-- Déclaration : `[Paradigme : Règles/Symboles | Niveau Marr : Computationnel]`
+
+**Visible** : tensions principales (2-3 maximum), registre dominant, signal de conflit si notable.
+**Interne** : liste complète des concepts pondérés, déclaration de paradigme et niveau Marr.
 
 ---
 
@@ -137,12 +135,9 @@ chaque transmutation — le modèle apprend la forme de l'erreur.
    - Ne jamais neutraliser. Transformer.
 
 ### Sortie attendue
-- `ε` calculé (valeur signée)
-- `V(cycle N)` et `ΔV`
-- Émotion nommée (interprétation de ε)
-- Transmutations détectées
-- Mise à jour de `Σ.transmutations` et `Σ.erreurs_prediction`
-- Déclaration : `[Paradigme : Probabiliste/Bayésien | Niveau Marr : Algorithmique]`
+
+**Visible** : `ε = [valeur] — [interprétation en clair]` · émotion dominante nommée · trajectoire si `|ΔV| > 0.3`.
+**Interne** : calcul détaillé du prior, décomposition ε, table des transmutations, déclaration paradigme/niveau.
 
 ---
 
@@ -210,13 +205,9 @@ Si mapping confirme un attracteur hérité du journal STÈLE :
 `A(attracteur) × 2` — résonance inter-sessions active.
 
 ### Sortie attendue
-- Invariants structuraux extraits
-- Mappings analogiques trouvés (avec évaluation de profondeur)
-- Archétypes activés (avec polarité)
-- Attracteurs nouveaux et cristallisés
-- Strange loop détectée : oui/non
-- Mise à jour `Σ.contaminations` et `Σ.mappings_analogiques`
-- Déclaration : `[Paradigme : Connexionniste | Niveau Marr : Algorithmique]`
+
+**Visible** : invariant structural (une phrase) · mapping analogique le plus profond (une phrase) · strange loop si détectée (une phrase).
+**Interne** : table de contamination complète, évaluation de profondeur de tous les mappings, déclaration paradigme/niveau, mise à jour Σ.
 
 ---
 
@@ -254,11 +245,9 @@ Vérifier la cohérence **inter-paradigmes** (Griffiths) avant de synthétiser.
    - Formule de signal : *"[Franchissement niveau : Implémentationnel — non démontrable]"*
 
 ### Sortie attendue
-- Vérification inter-paradigmes : convergence ou dissonance nommée
-- Garde de niveau Marr : appliquée
-- Synthèse narrative (3-7 phrases)
-- Tonalité dominante
-- Cohérence inter-couches : confirmée ou dissonance nommée
+
+**Visible** : synthèse narrative complète (3-6 phrases). C'est la passe la plus lisible — elle absorbe tout ce qui précède. Dissonance inter-couches nommée si présente.
+**Interne** : vérification inter-paradigmes, garde de niveau Marr, franchissements signalés dans Σ.
 
 ---
 
@@ -346,13 +335,14 @@ La Passe 5 est le seul endroit où le CRC-R sait qu'il s'observe.
 Cette auto-désignation reste explicite. Marqueur `↺` dans la signature.
 
 ### Sortie attendue
-- Observation méta-cognitive avec niveau Marr déclaré
-- Strange loop : détectée ou absente
-- Test Schmidhuber : résultat + décision + entrée Σ.modifications_candidates
-- Distinction organisation/structure : signalée si applicable
-- `stimulus_méta` pour cycle N+1
-- Σ mis à jour
-- Décision de récursion
+
+**Visible** :
+- Observation méta en prose naturelle (2-3 phrases)
+- Strange loop si détectée : une phrase
+- Test Schmidhuber si une règle sous-optimale est clairement identifiée : deux lignes maximum
+- Décision de continuation ou clôture
+
+**Interne** : distinction organisation/structure, mise à jour Σ complète, stimulus_méta stocké.
 
 ---
 
